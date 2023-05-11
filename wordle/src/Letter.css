@@ -1,0 +1,29 @@
+.board-row-square{
+    background-color: rgba(26, 26, 26, 0.8);
+    border: .15rem solid rgba(66, 66, 66, 0.8);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+#correct{
+    background-color: rgb(93, 180, 82, 0.8);
+    border-color: rgba(93, 180, 82, 0.8);
+}
+
+#almost{
+    background-color: rgba(213, 216, 62, 0.8);
+    border-color: rgba(213, 216, 62, 0.8);
+}
+#wrong{
+    background-color:  rgba(94, 92, 92, 0.8);
+    border-color: rgba(94, 92, 92, 0.8);
+}

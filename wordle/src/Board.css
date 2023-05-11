@@ -1,0 +1,14 @@
+.board-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 0.5rem;
+   
+    gap: 0.5rem;
+    height: auto;
+    width: 100%;
+}
+.board-container{
+    height: 50%;
+    padding: 2rem;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(16, 16, 16);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.page-container{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.8);
+}
